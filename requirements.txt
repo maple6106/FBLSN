@@ -1,0 +1,15 @@
+# Core numerical and image processing
+numpy==2.2.6
+Pillow==11.3.0
+opencv-python==4.12.0.88
+tqdm==4.67.1
+
+# MTCNN face detection
+mtcnn==0.1.1
+tensorflow==2.20.0
+
+# Training framework
+torch==2.8.0
+torchvision==0.23.0
+transformers==4.57.5
+scikit-learn==1.7.2
