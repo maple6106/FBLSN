@@ -127,7 +127,7 @@ FF++/
 Set the dataset path in `model_train.py` to the preprocessed directory:
 
 ```python
-ROOT = r"path\to\FF++"
+ROOT = r"FF++"
 ```
 
 ## Train the Model
@@ -135,7 +135,7 @@ ROOT = r"path\to\FF++"
 After preprocessing the FF++ dataset, set the dataset path in `model_train.py`:
 
 ```python
-ROOT = r"path\to\FF++"
+ROOT = r"FF++"
 ```
 
 Run the training script:
