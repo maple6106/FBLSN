@@ -1,4 +1,4 @@
-[README(2).md](https://github.com/user-attachments/files/29925694/README.2.md)
+[README (1).md](https://github.com/user-attachments/files/29925760/README.1.md)
 # Deepfake Detection
 
 ## Datasets
@@ -129,3 +129,31 @@ Set the dataset path in `model_train.py` to the preprocessed directory:
 ```python
 ROOT = r"path\to\FF++"
 ```
+
+## Train the Model
+
+After preprocessing the FF++ dataset, set the dataset path in `model_train.py`:
+
+```python
+ROOT = r"path\to\FF++"
+```
+
+Run the training script:
+
+```bash
+python model_train.py
+```
+
+During training, the model with the best validation AUC is saved automatically as:
+
+```text
+checkpoint.pth
+```
+
+This repository also provides a pretrained model checkpoint:
+
+```text
+checkpoint.pth
+```
+
+The provided checkpoint can be used directly for model evaluation or further experiments.
