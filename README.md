@@ -150,10 +150,4 @@ During training, the model with the best validation AUC is saved automatically a
 checkpoint.pth
 ```
 
-This repository also provides a pretrained model checkpoint:
 
-```text
-checkpoint.pth
-```
-
-The provided checkpoint can be used directly for model evaluation or further experiments.
